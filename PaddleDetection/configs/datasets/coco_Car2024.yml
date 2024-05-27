@@ -1,0 +1,21 @@
+metric: COCO
+num_classes: 13
+
+TrainDataset:
+  !COCODataSet
+    image_dir: images
+    anno_path: /home/aistudio/Car2024/train.json
+    dataset_dir: /home/aistudio/Car2024/
+    data_fields: ['image', 'gt_bbox', 'gt_class', 'is_crowd']
+
+EvalDataset:
+  !COCODataSet
+    image_dir: images
+    anno_path: /home/aistudio/Car2024/val.json
+    dataset_dir: /home/aistudio/Car2024/
+
+TestDataset:
+  !ImageFolder
+    ! anno_path: /home/aistudio/Car2024/val.json
+    image_dir: images
+    dataset_dir: /home/aistudio/Car2024/

@@ -1,0 +1,41 @@
+mode: paddle
+draw_threshold: 0.5
+metric: COCO
+use_dynamic_shape: false
+arch: GFL
+min_subgraph_size: 3
+Preprocess:
+- interp: 2
+  keep_ratio: false
+  target_size:
+  - 320
+  - 320
+  type: Resize
+- type: Permute
+- stride: 32
+  type: PadStride
+label_list:
+- bomb
+- bridge
+- safety
+- cone
+- crosswalk
+- danger
+- evil
+- block
+- patient
+- prop
+- spy
+- thief
+- tumble
+NMS:
+  keep_top_k: 100
+  name: MultiClassNMS
+  nms_threshold: 0.5
+  nms_top_k: 1000
+  score_threshold: 0.3
+fpn_stride:
+- 8
+- 16
+- 32
+- 64
