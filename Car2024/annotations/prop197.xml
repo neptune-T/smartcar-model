@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<annotation>
+  <filename>prop197.jpg</filename>
+  <object_num>1</object_num>
+  <size>
+    <width>320</width>
+    <height>240</height>
+  </size>
+  <object>
+    <name>prop</name>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>212</xmin>
+      <ymin>28</ymin>
+      <xmax>255</xmax>
+      <ymax>63</ymax>
+    </bndbox>
+  </object>
+</annotation>

@@ -1,0 +1,18 @@
+<?xml version="1.0" ?><annotation>
+  <filename>bomb2.jpg</filename>
+  <object_num>1</object_num>
+  <size>
+    <width>320</width>
+    <height>240</height>
+  </size>
+  <object>
+    <name>bomb</name>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>224</xmin>
+      <ymin>4</ymin>
+      <xmax>248</xmax>
+      <ymax>18</ymax>
+    </bndbox>
+  </object>
+</annotation>

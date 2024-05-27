@@ -1,0 +1,18 @@
+<?xml version="1.0" ?><annotation>
+  <filename>crosswalk17.jpg</filename>
+  <object_num>1</object_num>
+  <size>
+    <width>320</width>
+    <height>240</height>
+  </size>
+  <object>
+    <name>crosswalk</name>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>35</xmin>
+      <ymin>3</ymin>
+      <xmax>134</xmax>
+      <ymax>26</ymax>
+    </bndbox>
+  </object>
+</annotation>

@@ -1,0 +1,28 @@
+<?xml version="1.0" ?><annotation>
+  <filename>block29.jpg</filename>
+  <object_num>2</object_num>
+  <size>
+    <width>320</width>
+    <height>240</height>
+  </size>
+  <object>
+    <name>block</name>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>25</xmin>
+      <ymin>36</ymin>
+      <xmax>75</xmax>
+      <ymax>95</ymax>
+    </bndbox>
+  </object>
+  <object>
+    <name>cone</name>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>1</xmin>
+      <ymin>190</ymin>
+      <xmax>56</xmax>
+      <ymax>239</ymax>
+    </bndbox>
+  </object>
+</annotation>

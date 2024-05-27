@@ -1,0 +1,18 @@
+<?xml version="1.0" ?><annotation>
+  <filename>safety199.jpg</filename>
+  <object_num>1</object_num>
+  <size>
+    <width>320</width>
+    <height>240</height>
+  </size>
+  <object>
+    <name>safety</name>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>76</xmin>
+      <ymin>65</ymin>
+      <xmax>118</xmax>
+      <ymax>86</ymax>
+    </bndbox>
+  </object>
+</annotation>

@@ -1,0 +1,18 @@
+<?xml version="1.0" ?><annotation>
+  <filename>thief15.jpg</filename>
+  <object_num>1</object_num>
+  <size>
+    <width>320</width>
+    <height>240</height>
+  </size>
+  <object>
+    <name>thief</name>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>257</xmin>
+      <ymin>2</ymin>
+      <xmax>285</xmax>
+      <ymax>33</ymax>
+    </bndbox>
+  </object>
+</annotation>
