@@ -1,0 +1,18 @@
+<?xml version="1.0" ?><annotation>
+  <filename>evil67.jpg</filename>
+  <object_num>1</object_num>
+  <size>
+    <width>320</width>
+    <height>240</height>
+  </size>
+  <object>
+    <name>evil</name>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>252</xmin>
+      <ymin>12</ymin>
+      <xmax>289</xmax>
+      <ymax>49</ymax>
+    </bndbox>
+  </object>
+</annotation>
